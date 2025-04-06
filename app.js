@@ -1,7 +1,7 @@
 // lista que define valores ja sorteados como número secreto para não serem repetidos novamente até que todos tenham sido usados.
 var listDeNumerosSorteados = []
 // numero que vai multiplicar o math.radom para definir um intervalo de valores possíveis.
-let numeroAleatorioLimite = 100;
+let numeroAleatorioLimite = 50;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 
