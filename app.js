@@ -1,7 +1,7 @@
 // lista que define valores ja sorteados como número secreto para não serem repetidos novamente até que todos tenham sido usados.
 var listDeNumerosSorteados = []
 // numero que vai multiplicar o math.radom para definir um intervalo de valores possíveis.
-let numeroAleatorioLimite = 10;
+let numeroAleatorioLimite = 100;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 
@@ -13,7 +13,7 @@ function exibirTextoNaTela(tag, texto) {
 
 function mensagemInicial() {
     exibirTextoNaTela('h1', 'Jogo do número secreto');
-    exibirTextoNaTela('p', 'Escolha um número de 1 a 10');
+    exibirTextoNaTela('p', `Escolha um número de 1 a ${numeroAleatorioLimite}`);
 }
 mensagemInicial();
 
